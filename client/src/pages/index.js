@@ -1,5 +1,7 @@
-export { default as Home } from "./Home";
-export { default as Signin } from "./Signin";
-export { default as Signup } from "./Signup";
-export { default as About } from "./About";
-export { default as Profile } from "./Profile";
+import Home from "./Home";
+import Signin from "./Signin";
+import Signup from "./Signup";
+import About from "./About";
+import Profile from "./Profile";
+
+export { Home, Signin, Signup, About, Profile };
